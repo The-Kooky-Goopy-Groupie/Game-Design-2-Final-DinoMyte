@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &135986878692777203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 135986878692777197}
+  - component: {fileID: 135986878692777196}
+  m_Layer: 0
+  m_Name: NetworkManager_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &135986878692777197
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135986878692777203}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &135986878692777196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135986878692777203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa3c0b1ce93b53448f5d6edda383bee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UsingUDP: 0
+  MasterTimer: 0.05
+  LocalConnectionID: -10
+  DisconnectScreen: {fileID: 0}
+  ObjectCounter: 0
+  SpawnPrefab:
+  - {fileID: 8531541872909737589, guid: b94539f5e2f6a5c4caf75030d36ee069, type: 3}
+  - {fileID: 1811409014236184818, guid: 1b81c3c41f42c5b4fadeca9ef2e589d7, type: 3}
+  - {fileID: 1811409014236184818, guid: 01b873dcb339a9a478b73da32d43ef36, type: 3}
+  - {fileID: 1811409014236184818, guid: d776ce75b7cdd4c4e8831910ab0eab1d, type: 3}
+  - {fileID: 3537181033829532723, guid: e01ade76deab141459972d4678a6ca3f, type: 3}
+  - {fileID: 3537181033829532723, guid: 8ac2e92fbc853f84e85c1fb76e4f623d, type: 3}
+  - {fileID: 3537181033829532723, guid: 18319b4281e37a6409a43462e970f4e9, type: 3}
+  - {fileID: 3537181033829532723, guid: 78f5d9c291d666148897f707416d743a, type: 3}
+  - {fileID: 3537181033829532723, guid: b968fe7aecc03574a8ccb14994f0ba59, type: 3}
+  - {fileID: 3537181033829532723, guid: 40b52da393a25c5498e9002f41c7c521, type: 3}
+  - {fileID: 3537181033829532723, guid: 193c3f24e067d1e449060c61e1519040, type: 3}
+  - {fileID: 3624345157277330931, guid: 1c70b9c9d961cef47a1edd55d2eaf13a, type: 3}
+  - {fileID: 4355969244497800898, guid: da25a4ffaad8bf043b29151ac8030dee, type: 3}
+  - {fileID: 1997110851609030948, guid: d77afcf3fc751534787050364bb7ce8c, type: 3}
+  - {fileID: 1511896578121499979, guid: 7104aecd046d62d4f9c0de4879613e8b, type: 3}
+  - {fileID: 2124441086868223436, guid: 2892d007df70c0648b8fb45577b95cb4, type: 3}
+  - {fileID: 3537181033829532723, guid: 52e77e00fbf95f0479c1230df3ab4aca, type: 3}
+  NetworkPlayerManager: {fileID: 7355449782615189554, guid: dc439aed0755c244aa430ea0376a8957,
+    type: 3}
+  DefaultReturnScene: 0
